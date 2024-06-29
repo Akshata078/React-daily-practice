@@ -1,0 +1,27 @@
+.faq-outer{
+    margin: auto; 
+    width: 1000px;
+}
+.faq-items{
+    border: 1px solid red;
+    margin: 1rem;
+}
+.faq-items h2{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+.faq-items p{
+    height: 0;
+    transform: scaleY(0);
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.active-ans{
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 1rem !important;
+}

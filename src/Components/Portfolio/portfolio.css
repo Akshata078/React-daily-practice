@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.portfolio-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+/* .about{
+  display: flex;
+  justify-content: center;
+} */
+.projects, .links{
+    display: flex;
+    flex-direction: column;
+   
+}
+.list li{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.about div{
+    width: 70vw;
+    display: flex;
+
+}
+/* .about div img, .about div p{
+    margin-top: 2rem;
+} */
+.about div p{
+    background-color: white;
+    padding: 1rem;
+    /* margin-left: 1rem; */
+    height: auto;
+    width: 70%;
+    /* height: 110vh; */
+}
+.title{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+body{
+    background-color: lightgray;
+    width: 100vw;
+  
+}
+/* .my_img{
+    height: 300px;
+    width: 350px;
+    
+} */
+.portfolio-header{
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    padding: 1rem;
+    
+    
+}
+.list{
+    text-align: left;
+    list-style-type: none;
+    margin-left: 3rem;
+}
+.head-about{
+    display: flex;
+    justify-content: center;
+}
+.social-icons div{
+    margin: 0.5rem;
+    font-size: x-large;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    
+}

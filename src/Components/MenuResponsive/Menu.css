@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    padding: 1rem 0;
+}
+ul{
+    background-color: yellow;
+    width: 50%;
+    height: 100vh;
+    transition: 0.5s;
+    position: absolute;
+    left: -100%;
+}
+.active-menu{
+    left: 0%;
+}
+.icon{
+    position: absolute;
+    right: 0.5rem;
+}

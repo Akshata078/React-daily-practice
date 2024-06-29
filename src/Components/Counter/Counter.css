@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.count-value{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container .button-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.button-container button{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+}
