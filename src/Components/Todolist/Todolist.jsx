@@ -1,45 +1,46 @@
-
+import Todoitems from './Todoitems';
 import React, { useState } from 'react';
+import "./todolist.css"
 
-// const TodoList = () => {
-//   const [todos, setTodos] = useState([]);
-//   const [inputValue, setInputValue] = useState('');
 
-//   const handleChange = (e) => {
-//     setInputValue(e.target.value);
-//   };
 
-//   const handleAddTodo = () => {
-//     if (inputValue.trim() !== '') {
-//       setTodos([...todos, inputValue]);
-//       setInputValue('');
-//     }
-//   };
-
-//   const handleDeleteTodo = (index) => {
-//     const updatedTodos = todos.filter((todo, i) => i !== index);
-//     setTodos(updatedTodos);
-//   };
-
-//   return (
-//     <div>
-//       <h2>To-Do List</h2>
-//       <div>
-//         <input type="text" value={inputValue} onChange={handleChange} placeholder="Enter a new task"/>
-//         <button onClick={handleAddTodo}>Add</button>
-//       </div>
-//       <ul>{todos.map((todo, index) => (
-//           <li key={index}>{todo}
-//             <button onClick={() => handleDeleteTodo(index)}>Delete</button>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
 
 
 function TodoList(){
+    const [todolist, setTodolist] = useState([]);
+    let handleSubmit = (event) =>{
+        event.preventDefault();
+        let todoname = event.target.todoname.value;
+        let finalToDoList = [...todolist,todoname];
+        setTodolist(finalToDoList);
+        event.target.todoname.value=""
+    }
+
+  
+
+    let list = todolist.map((value, index)=>{
+        return(
+            <Todoitems value={value} key={index} index={index} todolist={todolist} setTodolist={setTodolist}/>
+        )
+
+    })
+    
+    return(
+        <>
+        <div>
+            <h1 className='heading'>ToDo List</h1>
+            <form className='to-do-list-form' onSubmit={handleSubmit}>
+                <input type="text" name='todoname' />
+                <button>Save</button>
+            </form>
+
+            <div className='to-do-list'>
+                {list}
+                
+            </div>
+        </div>
+        </>
+    )
   
 }
 

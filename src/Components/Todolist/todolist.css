@@ -1,0 +1,38 @@
+.to-do-list-form{
+    display: flex;
+    justify-content: center;
+    
+}
+.to-do-list-form input, .to-do-list-form button{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.to-do-list-form button{
+    flex-basis: 20%;
+}
+.to-do-list-form input{
+    flex-basis: 50%;
+}
+.to-do-list{
+    /* display: flex;
+    justify-content: center;
+    margin-top: 1rem; */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2rem;
+}
+.to-do-list li{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    flex-basis: 70%;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem;
+}
+.to-do-list li span{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    
+}
