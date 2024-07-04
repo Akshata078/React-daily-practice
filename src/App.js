@@ -15,6 +15,8 @@ import Faq from './Components/FAQ/Faq';
 import Userprofile from './Components/Profile';
 import Morning from './Components/Food/Morning';
 import Portfolio from './Components/Portfolio/Portfolio';
+import List from "./Components/List";
+import Dropdown from './Components/Food/FoodDropdown';
 
 
 function App() {
@@ -32,7 +34,15 @@ function App() {
 
   // props 
 
-  
+  let date = new Date();
+  // let hours = date.getHours();
+  let hours = 4;
+  // let minutes = date.getMinutes();
+  // let second = date.getSeconds();
+  // console.log(date);
+  // console.log(hours); 
+  // console.log(minutes); 
+  // console.log(second);
 
   return (
 
@@ -42,11 +52,8 @@ function App() {
 
     {/* <h1>{Name}</h1> */}
     {/* <button onClick={()=>innerFunc()}>Click</button> */}
-
-
-
-
   
+
 
   {/* <Home/> */}
 
@@ -54,7 +61,7 @@ function App() {
 
   {/* <Counter/> */}
 
-  <Todolist/>
+  {/* <Todolist/> */}
 
   {/* <Menu/> */}
 
@@ -71,10 +78,14 @@ function App() {
 
 {/* <Userprofile src="react-new/public/image.png" alt="profile img" height="200px" width="200px" border="2px solid black"/> */}
 
-{/* <Morning morning={true} afternoon={true} night={false}/> */}
+ {/* <Morning morning={true} afternoon={false} evening={false} night={false}/>  */}
+ {/* <Morning hours={hours}/> */}
+ {/* <Dropdown/> */}
 
 
  {/* <Portfolio/>  */}
+
+ {/* <List/> */}
 
     </>
   );
