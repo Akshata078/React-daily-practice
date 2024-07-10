@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home'
@@ -17,6 +18,21 @@ import Morning from './Components/Food/Morning';
 import Portfolio from './Components/Portfolio/Portfolio';
 import List from "./Components/List";
 import Dropdown from './Components/Food/FoodDropdown';
+import Createprofile from './Components/Createprofile/Createprofile';
+import { Fetch } from './Components/Fetch/Fetch';
+import Useref from './Components/Userref.jsx';
+import Usememo from './Components/Usememo.jsx';
+import Usecallbackhook from './Components/Usecallbackhook.jsx';
+import Modal from './Components/Modal/Modal.jsx';
+
+
+// routes
+import { Routes, Route, Link } from "react-router-dom";
+
+import Homee from './Components/Header/Home.jsx';
+import About from './Components/Header/About.jsx';
+import Services from './Components/Header/Services.jsx';
+import Contact from './Components/Header/Contact.jsx';
 
 
 function App() {
@@ -34,15 +50,9 @@ function App() {
 
   // props 
 
-  let date = new Date();
+  // let date = new Date();
   // let hours = date.getHours();
   let hours = 4;
-  // let minutes = date.getMinutes();
-  // let second = date.getSeconds();
-  // console.log(date);
-  // console.log(hours); 
-  // console.log(minutes); 
-  // console.log(second);
 
   return (
 
@@ -86,6 +96,28 @@ function App() {
  {/* <Portfolio/>  */}
 
  {/* <List/> */}
+
+ {/* <Createprofile/> */}
+
+ {/* <Fetch/> */}
+
+ {/* <Useref/> */}
+
+{/* <Usememo/> */}
+
+{/* <Usecallbackhook/> */}
+
+<Modal/>
+
+
+
+ {/* <Routes>
+        <Route path="/" element={<Homee />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/services" element={<Services />}></Route>
+
+</Routes> */}
 
     </>
   );

@@ -1,0 +1,11 @@
+.header-new{
+    background-color: yellow;
+    /* height: 2rem; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+.header-new li{
+    list-style-type: none;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+nav div{
+    background-color: pink;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+nav div button{
+    border: none;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.modal{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+    display:none;
+}
+
+.display-modal{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.input-field{
+    padding: 0.5rem;
+}
