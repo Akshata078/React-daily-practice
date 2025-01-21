@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
 // import Modalform from './Modalform';
+// import Todolist from './Todolist.jsx'
 import './Modal.css';
 
 function Modal(){
@@ -7,6 +8,7 @@ function Modal(){
         <>
         <Navbar/>
         {/* <Modalform/> */}
+        {/* <Todolist/> */}
         </>
     )
 

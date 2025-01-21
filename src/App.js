@@ -24,6 +24,23 @@ import Useref from './Components/Userref.jsx';
 import Usememo from './Components/Usememo.jsx';
 import Usecallbackhook from './Components/Usecallbackhook.jsx';
 import Modal from './Components/Modal/Modal.jsx';
+import {Usecontextone} from './Components/Usecontextone.jsx';
+import Usereftwo from './Components/Usereftwo.jsx';
+import Usememo2 from './Components/Usememo2.jsx';
+import Inputf from './Components/pract.jsx';
+import Toggle from './Components/ToggleVisibility.jsx';
+import Propsdrillingone from './Components/Practice/PropsDrillingOne.jsx';
+import Loginlogout from './Components/Practice/LoginLogout.jsx';
+import Showarritem from './Components/Practice/ShowArrItem.jsx';
+import Buttonclickpropshow from './Components/Practice/ChildpropsBtnClick.jsx';
+import Todoapp from './Components/Practice/Todoapp.jsx';
+import Themechange from './Components/Practice/Theme.jsx';
+import {Usecontexthook} from './Components/Practice/Usecontexthook.jsx';
+import Userefhook from './Components/Practice/UseRefHook.jsx';
+import Usecallbackhooktwo from './Components/Practice/Usecallbackhook.jsx';
+import Usereducer from './Components/Practice/Usereducer.jsx';
+import Loginpage from './Components/Login.jsx'
+import Propone from './Components/Propone.jsx';
 
 
 // routes
@@ -33,6 +50,11 @@ import Homee from './Components/Header/Home.jsx';
 import About from './Components/Header/About.jsx';
 import Services from './Components/Header/Services.jsx';
 import Contact from './Components/Header/Contact.jsx';
+import Inputcounter from './Components/Practice/InputCounter.jsx';
+import Usememohook from './Components/Practice/UseMemoHook.jsx';
+import Formvalidate from './Components/FormValidate.jsx';
+import Tododtask from './Components/Todotask.jsx';
+import Themetoggle from './Components/ThemeToggle.jsx';
 
 
 function App() {
@@ -103,11 +125,58 @@ function App() {
 
  {/* <Useref/> */}
 
+ {/* <Usereftwo/> */}
+
 {/* <Usememo/> */}
+
+{/* <Usememo2/> */}
 
 {/* <Usecallbackhook/> */}
 
-<Modal/>
+{/* <Modal/> */}
+
+{/* <Usecontextone/> */}
+
+{/* <Inputf/> */}
+
+{/* <Toggle/> */}
+
+{/* <Propsdrillingone hours={hours}/> */}
+
+{/* <Loginlogout/> */}
+
+{/* <Showarritem/> */}
+
+{/* <Buttonclickpropshow name="Akshata"/> */}
+
+{/* <Todoapp/> */}
+
+{/* <Themechange/> */}
+
+{/* <Inputcounter/> */}
+
+{/* <Usecontexthook/> */}
+
+{/* <Userefhook/> */}
+
+{/* <Usememohook/> */}
+
+{/* <Usecallbackhooktwo/> */}
+
+{/* <Usereducer/> */}
+
+{/* <Loginpage/> */}
+
+{/* <Propone name="Akshata"/> */}
+
+{/* <Formvalidate/> */}
+
+{/* <Tododtask/> */}
+
+<Themetoggle/>
+
+
+
 
 
 
@@ -116,8 +185,12 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/services" element={<Services />}></Route>
-
 </Routes> */}
+
+
+
+
+
 
     </>
   );

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Modalform from './Modalform';
+import Aside from "./Aside";
+import Todolist from "./Todolist";
 
 function Navbar (){
 
@@ -12,12 +14,16 @@ function Navbar (){
         <>
         <nav>
             <div>
-            <button onClick={formclicked}>Form</button>
+            <button onClick={formclicked}>Modal</button>
             
             </div>
            
         </nav>
         <Modalform status={status} setStatus={setStatus}/>
+        <div>
+        <Aside/>
+        <Todolist/>
+        </div>
         </>
 
     )
