@@ -1,0 +1,23 @@
+.item-container{
+    display:flex;
+     gap:2rem; 
+    flex-wrap:wrap
+
+}
+.item-container .item{
+    padding: 0.5rem;
+    display: block;
+    width: 20rem;
+    border: 2px solid black;
+}
+.item-title{
+    font-weight: 500;
+}
+.item p{
+    text-align: center;
+}
+.search-input{
+    width: 50%;
+    margin: 1rem;
+    padding: 0.5rem;
+}

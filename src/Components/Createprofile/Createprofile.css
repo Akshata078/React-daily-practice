@@ -1,0 +1,65 @@
+.create-profile{
+    display: flex;
+    justify-content: center;
+}
+.create-profile .user-profile-component, .create-profile .form-component{
+    width: 40%;
+    border: 2px solid black;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.create-profile-form input{
+    width: 100%;
+    padding: 0.2rem;
+}
+.create-profile-form label{
+    margin-bottom: 1rem;
+}
+.btn .submit-btn{
+    padding: 0.3rem;
+    width: 60%;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hobby-container .hobby-name{
+    border: 1px solid black;
+    width: 40%;
+    margin: 2%;
+    padding: 0.4rem;
+}
+.hobby-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.hobby-name{
+    display: flex;
+    justify-content: space-between;
+}
+.add-hobby-icon{
+    cursor: pointer;
+    font-size: larger;
+}
+.add-hobby-title{
+    font-weight:500;
+}
+.profile-img{
+    border: 1px solid gray;
+    height: 6rem;
+    width: 6rem;
+    display: block;
+    border-radius: 50%;
+}
+.user-profile-section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-bio{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

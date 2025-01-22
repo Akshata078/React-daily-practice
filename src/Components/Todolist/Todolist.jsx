@@ -3,9 +3,6 @@ import React, { useState } from 'react';
 import "./todolist.css"
 
 
-
-
-
 function TodoList(){
     const [todolist, setTodolist] = useState([]);
     let handleSubmit = (event) =>{
@@ -15,8 +12,6 @@ function TodoList(){
         setTodolist(finalToDoList);
         event.target.todoname.value=""
     }
-
-  
 
     let list = todolist.map((value, index)=>{
         return(
